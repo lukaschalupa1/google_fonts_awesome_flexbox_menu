@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Fonts Awesome Flexbox Menu</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 1em 2em;
+            display: flex;
+            align-items: center;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        nav a i {
+            margin-right: 0.5em;
+        }
+
+        main {
+            padding: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Flexbox Menu s Font Awesome a Google Fonts</h1>
+    </header>
+    <nav>
+        <a href="#home"><i class="fas fa-home"></i>Domů</a>
+        <a href="#about"><i class="fas fa-info-circle"></i>O nás</a>
+        <a href="#services"><i class="fas fa-cogs"></i>Služby</a>
+        <a href="#contact"><i class="fas fa-envelope"></i>Kontakt</a>
+    </nav>
+    <main>
+        <p>Vítejte na našem webu! Toto je příklad použití Google Fonts, Font Awesome a Flexboxu v menu.</p>
+    </main>
+</body>
+</html>
